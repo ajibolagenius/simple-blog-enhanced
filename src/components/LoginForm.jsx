@@ -1,3 +1,15 @@
+/**
+ * A React component that renders a login form with username and password inputs.
+ *
+ * When the form is submitted, it checks if the username is 'test' and the password is 'password'.
+ * If the credentials are valid, it calls the `onLogin` callback function with the username.
+ * If the credentials are invalid, it displays an error message.
+ *
+ * @param {object} props - The component props.
+ * @param {function} props.onLogin - A callback function to be called when the user logs in successfully.
+ * @returns {JSX.Element} The login form component.
+ */
+
 import React, { useState } from 'react';
 
 const LoginForm = ({ onLogin }) => {

@@ -4,6 +4,20 @@ import axios from 'axios';
 import CommentList from '../components/CommentList';
 import CommentForm from '../components/CommentForm';
 
+/**
+ * PostPage component fetches and displays a single post along with its comments.
+ *
+ * This component uses the `useParams` hook to get the `postId` from the URL,
+ * and fetches the post data from an API. It also handles loading and error states.
+ *
+ * Users can add new comments to the post, which are displayed in the comments section.
+ *
+ * @component
+ * @example
+ * return (
+ *   <PostPage />
+ * )
+ */
 const PostPage = () => {
     const { postId } = useParams();
     const [post, setPost] = useState(null);

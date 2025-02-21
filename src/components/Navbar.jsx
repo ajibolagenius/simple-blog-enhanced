@@ -1,3 +1,13 @@
+/**
+ * Renders the navigation bar component for the blog application.
+ *
+ * The Navbar component provides links to the home page, as well as buttons to navigate back and forward through the application's history. If the user is logged in, a logout button is also displayed.
+ *
+ * @param {boolean} isLoggedIn - Indicates whether the user is currently logged in.
+ * @param {function} handleLogout - Function to be called when the user clicks the logout button.
+ * @returns {JSX.Element} - The rendered Navbar component.
+ */
+
 import React from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 

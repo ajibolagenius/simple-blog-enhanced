@@ -1,3 +1,57 @@
+ /*
+ * This CSS file contains the styles for the Simple Blog Enhanced React application.
+ *
+ * Sections:
+ *
+ * 1. Root Layout
+ *    - .app-container: Styles for the main application container.
+ *
+ * 2. Navigation
+ *    - .navbar: Styles for the navigation bar.
+ *    - .navbar-title: Styles for the navigation bar title.
+ *    - .navbar-links: Styles for the container holding navigation links.
+ *    - .navbar-link: Styles for individual navigation links.
+ *    - .navbar-button: Styles for buttons in the navigation bar.
+ *
+ * 3. Main Content Area
+ *    - .main-content: Styles for the main content area.
+ *
+ * 4. Login Section
+ *    - .login-wrapper: Styles for the login section container.
+ *    - .login-form: Styles for the login form.
+ *    - .form-input: Styles for form input fields.
+ *    - .form-button: Styles for form buttons.
+ *
+ * 5. Blog Posts
+ *    - .posts-wrapper: Styles for the blog posts container.
+ *    - .post-list: Styles for the list of blog posts.
+ *    - .post-item: Styles for individual blog post items.
+ *    - .post-id-serial: Styles for the serial number of blog posts.
+ *    - .post-link: Styles for links to individual blog posts.
+ *
+ * 6. Single Post View
+ *    - .post-wrapper: Styles for the single post view container.
+ *    - .post-title: Styles for the title of a single post.
+ *    - .post-body: Styles for the body content of a single post.
+ *
+ * 7. Comments Section
+ *    - .comments-section: Styles for the comments section.
+ *    - .comment-form: Styles for the comment form.
+ *    - .comment-input: Styles for the comment input field.
+ *    - .comment-submit-btn: Styles for the comment submit button.
+ *    - .comment-list: Styles for the list of comments.
+ *    - .comment-item: Styles for individual comment items.
+ *    - .comment-title: Styles for the title of a comment.
+ *    - .comment-body: Styles for the body content of a comment.
+ *
+ * 8. State Indicators
+ *    - .loading-state: Styles for the loading state indicator.
+ *    - .error-state: Styles for the error state indicator.
+ *    - .error-message: Styles for error messages.
+ *
+ * 9. Responsive Design
+ *    - Media queries for screen widths up to 768px and 480px to ensure responsive design.
+ */
 /* Root Layout */
 .app-container {
     width: 100vw;

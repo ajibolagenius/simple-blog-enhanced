@@ -1,3 +1,11 @@
+/**
+ * A React component that fetches and displays a list of comments for a given post.
+ *
+ * @param {object} props - The component props.
+ * @param {number} props.postId - The ID of the post to fetch comments for.
+ * @returns {JSX.Element} - The rendered comment list.
+ */
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 

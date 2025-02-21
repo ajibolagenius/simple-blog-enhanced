@@ -6,6 +6,24 @@ import Navbar from './components/Navbar';
 import { useState, useEffect } from 'react';
 import './App.css';
 
+/**
+ * The main App component that handles routing and authentication state.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered component.
+ *
+ * @example
+ * return (
+ *   <App />
+ * )
+ *
+ * @description
+ * This component uses React Router for navigation and manages the authentication state using localStorage.
+ * It conditionally renders different components based on the user's authentication status and the current route.
+ *
+ * @function
+ * @name App
+ */
 function App() {
     const navigate = useNavigate();
     const location = useLocation();

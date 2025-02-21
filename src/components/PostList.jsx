@@ -2,6 +2,20 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
+/**
+ * PostList component fetches and displays a list of posts.
+ *
+ * This component uses the `useState` hook to manage the state of posts, error, and loading.
+ * It uses the `useEffect` hook to fetch posts from an API when the component mounts.
+ *
+ * @component
+ * @example
+ * return (
+ *   <PostList />
+ * )
+ *
+ * @returns {JSX.Element} A list of posts or a loading/error message.
+ */
 const PostList = () => {
     const [posts, setPosts] = useState([]);
     const [error, setError] = useState(null);
