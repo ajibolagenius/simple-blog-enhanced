@@ -46,7 +46,7 @@ simple-blog-enhanced/
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/simple-blog-enhanced.git
+    git clone https://github.com/ajibolagenius/simple-blog-enhanced.git
     cd simple-blog-enhanced
     ```
 
